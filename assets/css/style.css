@@ -24,7 +24,6 @@ body::before {
 	max-width: 1200px;
 	padding: 2rem;
 	margin: 0 auto;
-	transform: rotate(-1.5deg);
 }
 
 a, a:hover {
@@ -78,6 +77,10 @@ del::after {
 	font-size: 1.25rem;
 }
 
+.display-4 {
+	font-size: 1.125rem;
+}
+
 .spacer {
 	height: 2rem;
 }
@@ -117,6 +120,9 @@ del::after {
 	.display-3 {
 		font-size: 1.75rem;
 	}
+	.display-4 {
+		font-size: 1.5rem;
+	}
 }
 
 @media (min-width: 820px) {
@@ -129,5 +135,8 @@ del::after {
 	}
 	.display-3 {
 		font-size: 2.5rem;
+	}
+	.display-4 {
+		font-size: 2rem;
 	}
 }
